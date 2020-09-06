@@ -4,15 +4,14 @@ using namespace std;
 
 int main()
 {
-    int sizeOfArray, sum = 0;
-    cin>>sizeOfArray;
-    int numbers[sizeOfArray];
-    for (int i = 0 ; i < sizeOfArray ; i++) {
-        cin>>numbers[i];
-    }
-    for (int i = 0 ; i < sizeOfArray ; i++) {
+    int n, sum = 0;
+    cin >> n;
+    int numbers[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> numbers[i];
         sum += numbers[i];
     }
-    cout<<sum;
+    cout << sum;
     return 0;
 }

@@ -1,2 +1,2 @@
 # HackerRank Solutions
-I will be uploading all my solutions on HackerRank.
+I will be uploading all my solutions from HackerRank.

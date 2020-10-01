@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> numbers[i];
-        sum += numbers[i];
+        sum = sum+ numbers[i];
     }
     cout << sum;
     return 0;
